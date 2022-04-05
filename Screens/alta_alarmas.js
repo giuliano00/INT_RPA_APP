@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 
-const Mis_procesos = () => {
+const alta_alarmas = () => {
     return (
         <View>
             <Text
@@ -10,9 +10,9 @@ const Mis_procesos = () => {
                     textAlign: "center",
                     marginTop: "20%"
                 }}
-            >mis_procesos</Text>
+            >alta_alarmas</Text>
         </View>
     );
     }
 
-export default Mis_procesos;
+export default alta_alarmas;
