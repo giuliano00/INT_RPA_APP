@@ -8,21 +8,25 @@ export default class Log_in extends Component {
         
         return (
             <View style={styles.container}>
-                <ScrollView>
-                    <ImageBackground source={require('../app/img/wl1.png')} style={styles.img}>
+               
+                    <ImageBackground source={require('../app/img/log.png')} style={styles.img}>
 
-                    <SafeAreaView>
-
-     
-    </SafeAreaView>
+                        <Text style={styles.title}> Sing In </Text>
 
                         <View style={styles.container}>
-                        <TouchableOpacity style={{backgroundColor: "red", padding: 10, marginTop: "20%", width:"50%", alignSelf:"center",borderRadius: 10,}}>
+                        <Text>Nombre de usuario :</Text>
+                             <TextInput placeholder='EJ: Jhon'  style={styles.input} onChangeText={(value) => setName(value)} />
+                        <Text>Contraseña :</Text>
+                             <TextInput placeholder='EJ: 123' style={styles.input} onChangeText={(value) => setAge(value)} />
+                        </View>
+
+                        <View style={styles.container}>
+                        <TouchableOpacity style={{backgroundColor: "purple", padding: 10, marginTop: "-40%", width:"50%", alignSelf:"center",borderRadius: 20,}}>
                          <Text style={{ fontSize:15, textAlign: "center", color:"white", }} >Iniciar Secion</Text>
                         </TouchableOpacity>
                         </View>
                     </ImageBackground>
-                </ScrollView >
+             
             </View >
         );
     }
@@ -34,6 +38,7 @@ const styles = StyleSheet.create({
         //backgroundColor: '#6192C0',
         alignItems: 'center',
         justifyContent: 'center',
+        flexDirection: 'column',
         
     },
     box: {
@@ -55,5 +60,21 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
 
     },
+    title: {
+        color: 'black',
+        fontSize: 40,
+        textAlign: 'center',
+        marginTop: 200,
+        opacity: 1,
+       
+    },
+    input: {
+        borderWidth: 2,
+        borderColor: '#777',
+        padding: 8,
+        margin: 10,
+        width: 250,
+        borderRadius: 20,
+      },
 });
 

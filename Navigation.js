@@ -25,13 +25,12 @@ function MyStack(){
       <stack.Screen
       name = "Chat_bot_stack"
       component={Chat_bot}
-     
       />
-        
-      <stack.Screen       
+   <stack.Screen       
       name = "Log_in"
       component={Log_in} 
       />
+      
     </stack.Navigator>
 
   )

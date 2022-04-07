@@ -18,23 +18,8 @@ function Chat_bot() {
 
             <TouchableOpacity
             onPress={() => navigation.navigate("Log_in") }
-            style={{
-                backgroundColor: "red",
-                padding: 10,
-                marginTop: "20%",
-                width:"50%",
-                alignSelf:"center",
-                borderRadius: 10,
-            }}
-            >
-            <Text
-            style={{
-                fontSize:15,
-                textAlign: "center",
-                color:"white",
-
-            }}
-            >loginsss</Text>
+            style={{ backgroundColor: "red", padding: 10,  marginTop: "20%", width:"50%", alignSelf:"center", borderRadius: 10, }} >
+            <Text style={{ fontSize:15, textAlign: "center", color:"white", }}>loginsss</Text>
             </TouchableOpacity>
 
         </View>
