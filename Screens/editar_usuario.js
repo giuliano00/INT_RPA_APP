@@ -6,7 +6,7 @@ const Editar_usuario = () => {
     return (
 <View style={styles.container}>
           
-                    <ImageBackground source={require('../app/img/wal.png')} style={styles.img}>
+                    <ImageBackground source={require('../app/img/gris.jpg')} style={styles.img}>
                    
                     <View style={styles.container}>
                          <Text style={styles.txt2}> Usuario ID : </Text>
@@ -37,7 +37,7 @@ const Editar_usuario = () => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        //backgroundColor: '#6192C0',
+        //backgroundColor: '#6192C0',aa
         alignItems: 'center',
         justifyContent: 'center',
         marginTop: "40%",
